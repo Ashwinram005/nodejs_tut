@@ -15,6 +15,6 @@
 //   T: "U "    // Tongue of the cow (you can customize the tongue)
 // }));
 
-const {tesla,ford}=require("./car")
-console.log(JSON.stringify(tesla,null,2))
-console.log(JSON.stringify(ford,undefined,2));
+// const {tesla,ford}=require("./car")
+// console.log(JSON.stringify(tesla,null,2))
+// console.log(JSON.stringify(ford,undefined,2));
