@@ -9,3 +9,8 @@ console.log(x,y);
 
 console.log("Im %s and my age is %d","ASHWINRAM M",19);
 console.clear()
+console.count("I am ASHWINRAM M");
+console.count("I am ASHWINRAM M");
+console.count("I am 19");
+console.countReset("I am ASHWINRAM M");
+console.count("I am ASHWINRAM M");
