@@ -4,7 +4,7 @@
 // console.log(error.message);
 // throw new Error("Im error object")
 
-const CustomError = require("./CustomError"); // Ensure this matches the actual file name
+// const CustomError = require("./CustomError"); // Ensure this matches the actual file name
 // throw new CustomError("Something went wrong");
 
 //Handling error using try and catch
@@ -16,11 +16,11 @@ const CustomError = require("./CustomError"); // Ensure this matches the actual 
 //    console.log(error);
 // }
 
-function dosomething(){
-    // console.log("I am from do function")
-    // return "I am from do function"
-    const data=fetch("localhost:3000/api")
-}
+// function dosomething(){
+//     // console.log("I am from do function")
+//     // return "I am from do function"
+//     const data=fetch("localhost:3000/api")
+// }
 
 //uncaught exception
 // process.on("uncaughtException",()=>{
@@ -49,12 +49,12 @@ function dosomething(){
 //  })
 
 //Exception with Asyn and await
-const someFunction=async()=>{
-    try{
-        await dosomething();
-    }
-    catch(error){
-        throw new CustomError(error.message);
-    }
-}
-someFunction();
+// const someFunction=async()=>{
+//     try{
+//         await dosomething();
+//     }
+//     catch(error){
+//         throw new CustomError(error.message);
+//     }
+// }
+// someFunction();

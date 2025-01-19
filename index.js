@@ -18,3 +18,15 @@
 // const {tesla,ford}=require("./car")
 // console.log(JSON.stringify(tesla,null,2))
 // console.log(JSON.stringify(ford,undefined,2));
+
+// const path=require("path");
+// const filePath=path.join(__dirname,"sample.txt");
+// //dirname
+// console.log(path.dirname(filePath));
+// console.log(__dirname)
+// //basename
+// console.log(path.basename(filePath));
+// console.log(__filename)
+// //extension
+// console.log(path.extname(filePath));
+
