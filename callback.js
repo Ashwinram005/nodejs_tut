@@ -33,14 +33,15 @@ function makeApiCall(cb){
     },0);
 }
 
-makeApiCall(()=>{
-    makeApiCall(()=>{
-        asyncTask(()=>{
-            asyncTask(()=>{
-                asyncTask(()=>{
-                    asyncTask(()=>{})
-                })
-            })
-        })
-    })
-})
+//Callback Hell
+// makeApiCall(()=>{
+//     makeApiCall(()=>{
+//         asyncTask(()=>{
+//             asyncTask(()=>{
+//                 asyncTask(()=>{
+//                     asyncTask(()=>{})
+//                 })
+//             })
+//         })
+//     })
+// })
